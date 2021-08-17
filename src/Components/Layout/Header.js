@@ -6,11 +6,11 @@ const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
-          <h1>Meal Magic</h1>
-          <HeaderCartButton />
+        <h1>Meal Magic</h1>
+        <HeaderCartButton />
       </header>
-      <div className={classes['main-image']}>
-          <img src={mealsImage} alt="Delicious food!" />
+      <div className={classes["main-image"]}>
+        <img src={mealsImage} alt="Delicious food!" />
       </div>
     </>
   );
